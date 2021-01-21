@@ -12,44 +12,89 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient">
-        <img class="ms-5 mb-3" src="./images/black-bomb-vector-clipart.png" alt="logo" height="100">
-        <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon p-3"></span>            
-        </button>
-        <div class="collapse navbar-collapse ms-5" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item active m-3 h2">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-            <li class="nav-item active m-3 h2">
-                <a class="nav-link" aria-current="page" href="iceland.html">Columbia</a>
-              </li>
-            <li class="nav-item active m-3 h2">
-              <a class="nav-link" aria-current="page" href="italy.html">Iceland</a>
-            </li>
-            <li class="nav-item active m-3 h2">
-              <a class="nav-link" href="thailand.html">Portugal</a>
-            </li>
-        </ul>
+    <header>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient">
+            <!-- Nav Bar Logo -->
+            <a href="./index.html"><img class="ms-5 mb-3" src="./images/black-bomb-vector-clipart.png" alt="logo" height="100"></a>
+            <!-- Nav Bar Hamburger Parent -->
+            <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Nav Bar Hamburger Child (Icon) -->
+              <span class="navbar-toggler-icon p-3"></span>            
+            </button>
+            <!-- Nav Bar Hamburger Contents (Icon) -->
+            <div class="collapse navbar-collapse ms-5" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item active m-3 h2">
+                        <a class="nav-link active-page" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active m-3 h2">
+                        <a class="nav-link" aria-current="page" href="iceland.html">Columbia</a>
+                    </li>
+                    <li class="nav-item active m-3 h2">
+                    <a class="nav-link" aria-current="page" href="italy.html">Iceland</a>
+                    </li>
+                    <li class="nav-item active m-3 h2">
+                    <a class="nav-link" href="thailand.html">Portugal</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Header -->
+        <div class="container-md mt-3 site-title">
+            <h1>Bomb Travel</h1>
+            <p><em>It's the bomb.</em></p>
         </div>
-      </div>
-    </nav>
-    <main>
-    
+    </header>
+    <!-- Main Container -->
+    <main class="container-auto">
+        <!-- Site Bio -->
+        <section class="container-lg site-bio bg-success py-5 my-5">
+            <h2 class="section-header">Our Story</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sapiente voluptates iure quia quisquam magnam aliquid quam placeat, suscipit cum, quae magni id expedita quidem illo sint omnis vitae deleniti.</p>
+        </section>
+        <section class="container-lg">
+            <h2 class="section-header">Destinations</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="card p-2 mx-3 mx-sm-5" style="width: 18rem;">
+                    <img src="./images/columbia-tb.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Columbia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="./iceland.html" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+                <div class="card p-2 mx-3" style="width: 18rem;">
+                    <img src="./images/iceland-tb.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Iceland</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="./italy.html" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+                <div class="card p-2 mx-3" style="width: 18rem;">
+                    <img src="./images/portugal-tb.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Portugal</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="./thailand.html" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-  
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Footer -->
+    <footer class="container-auto container-style bg-dark text-light p-3">
+        <div class="row">
+            <div class="col-3 col-sm-2"><p>Copyright &copy; 2021</p></div>
+            <div class="col-3 col-sm-2"><p>Sophia Spaulding</p></div>
+            <div class="col-3 col-sm-2"><p>Jon Newton</p></div>
+            <div class="col-3 col-sm-2"><p>Chance Lance</p></div>
+        </div>
+    </footer>
+    <!--  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>

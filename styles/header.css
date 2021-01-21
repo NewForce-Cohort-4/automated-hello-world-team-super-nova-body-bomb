@@ -1,0 +1,26 @@
+/* header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  header nav ul {
+    display: flex;
+  }
+  header nav ul li {
+    padding-right: 10em;
+    list-style-type: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 3em;
+    color: #000;
+    font-weight: bold;
+  } */
+  nav a.active-page { 
+    background-color: rgb(197, 169, 248); 
+    /* padding: .5em; */
+  }
+
+  .site-title {
+      text-align: center;
+  }

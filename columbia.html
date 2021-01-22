@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <title>Columbia | Bomb Travel</title>
+    <title>Colombia | Bomb Travel</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                         <a class="nav-link active-page" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item active m-3 h2">
-                        <a class="nav-link" aria-current="page" href="columbia.html">Columbia</a>
+                        <a class="nav-link" aria-current="page" href="colombia.html">Colombia</a>
                     </li>
                     <li class="nav-item active m-3 h2">
                         <a class="nav-link" aria-current="page" href="iceland.html">Iceland</a>
@@ -44,7 +44,7 @@
         </nav>
         <!-- Page Header -->
         <div class="container-md mt-3 site-title">
-            <h1>Visit Columbia | Bomb Travel</h1>
+            <h1>Visit Colombia | Bomb Travel</h1>
             <p><em>Placeholder</em></p>
         </div>
     </header>
@@ -52,21 +52,24 @@
     <main class="container-auto pb-9">
         <!-- Site Bio -->
         <section class="container-lg site-bio bg-info py-5 my-5">
-            <div class="container-auto"><img src="" alt="" srcset=""></div>
-            <h2 class="section-header">Columbia</h2>
+            <div class="container-auto">
+                <div class="row">
+                    <img src="./images/colombia-banner.jpg" alt="" srcset="" id="col">
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="section-header text-light mt-3">Colombia</h2>
+            </div>
         </section>
         <!-- Destination Cards -->
-        <section class="container-lg">
+        <section class="container-md">
             <div class="card-group">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./images/colombia-scene1-tb.jpg" class="card-img-top" alt="..." id="city-card">
                     <div class="card-body">
-                        <h5 class="card-title">Cities</h5>
-                        <div class="card-text" id="list-cities">
-                            <ul>
-                                <li>test</li>
-                                <li>test</li>
-                                <li>test</li>
+                        <h4 class="card-title text-center">Cities</h4>
+                        <div class="card-text">
+                            <ul id="list-cities">
                             </ul>
                         </div>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
@@ -75,13 +78,8 @@
                 <div class="card">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Landmarks</h5>
+                        <h5 class="card-title text-center">Landmarks</h5>
                         <div class="card-text" id="list-landmarks">
-                            <ul>
-                                <li>test</li>
-                                <li>test</li>
-                                <li>test</li>
-                            </ul>
                         </div>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
@@ -89,13 +87,8 @@
                 <div class="card">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Famous People</h5>
+                        <h5 class="card-title text-center">Famous People</h5>
                         <div class="card-text" id="list-people">
-                            <ul>
-                                <li>test</li>
-                                <li>test</li>
-                                <li>test</li>
-                            </ul>
                         </div>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
@@ -106,11 +99,11 @@
             <h2 class="section-header">Destinations</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="card p-2 mx-3 mx-sm-5" style="width: 18rem;">
-                    <img src="./images/columbia-tb.jpeg" class="card-img-top" alt="...">
+                    <img src="./images/colombia-tb.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Columbia</h5>
+                      <h5 class="card-title">colombia</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="./columbia.html" class="btn btn-primary">Learn more</a>
+                      <a href="./colombia.html" class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
                 <div class="card p-2 mx-3" style="width: 18rem;">
@@ -157,6 +150,7 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
     <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/columbia-data/scripts.js"></script>
 </body>
 
 </html>

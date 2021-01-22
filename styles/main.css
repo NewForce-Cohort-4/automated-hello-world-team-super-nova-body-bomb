@@ -33,3 +33,8 @@ h1,h2 {
 .section-card {
 	font-size: 30px;
 }
+
+.country-picture {
+	height: 800px;
+	width: 1300px;
+}

@@ -6,14 +6,30 @@ body,
 button,
 input,
 select,
-textarea {
+textarea{
 	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
+h1,h2 {
+  font-family:"Yusei Magic", sans-serif;
   letter-spacing: 2px;
+}
+
+.card-text {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.section-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 100px;
+}
+
+.section-card {
+	font-size: 30px;
 }

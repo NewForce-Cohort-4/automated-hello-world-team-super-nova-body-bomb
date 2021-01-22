@@ -7,6 +7,7 @@ landCol();
 celebCol();
 
 
+// City Event Listners
 
 const img = document.querySelector("#city-card");
 const barr = document.querySelector("#Barranquilla")
@@ -43,6 +44,11 @@ mede.addEventListener('mouseenter', e => {
 mede.addEventListener('mouseleave', e => {
     img.src = './images/colombia-scene1-tb.jpg';            
 })
+
+// Landmark Event Listners
+
+
+// People Event Listners
 
 // barr.onmouseover = function barrOver() {
 //         img.src = './images/barranquilla-tb.jpg'

@@ -22,7 +22,7 @@ barr.addEventListener('mouseenter', e => {
 })
 
 barr.addEventListener('mouseleave', e => {
-    img.src = './images/colombia-scene1-tb.jpg';            
+    img.src = './images/cities-tb.png';            
 })
 
 bog.addEventListener('mouseenter', e => {
@@ -32,7 +32,7 @@ bog.addEventListener('mouseenter', e => {
 })
 
 bog.addEventListener('mouseleave', e => {
-    img.src = './images/colombia-scene1-tb.jpg';            
+    img.src = './images/cities-tb.png';            
 })
 
 mede.addEventListener('mouseenter', e => {
@@ -42,13 +42,72 @@ mede.addEventListener('mouseenter', e => {
 })
 
 mede.addEventListener('mouseleave', e => {
-    img.src = './images/colombia-scene1-tb.jpg';            
+    img.src = './images/cities-tb.png';            
 })
 
 // Landmark Event Listners
 
+const img2 = document.querySelector("#location-card")
+
+const ros = document.querySelector("#rosario")
+const coco = document.querySelector("#cocora")
+const cat = document.querySelector("#catedral")
+
+ros.addEventListener('mouseenter', e => {
+    img2.src = './images/rosario-islands-tb.png';      
+})
+
+ros.addEventListener('mouseleave', e => {
+    img2.src = './images/colombia-scene1-tb.jpg';            
+})
+
+coco.addEventListener('mouseenter', e => {
+    img2.src = './images/cocora-tb.png';      
+})
+
+coco.addEventListener('mouseleave', e => {
+    img2.src = './images/colombia-scene1-tb.jpg';            
+})
+
+cat.addEventListener('mouseenter', e => {
+    img2.src = './images/catedral-tb.png';      
+})
+
+cat.addEventListener('mouseleave', e => {
+    img2.src = './images/colombia-scene1-tb.jpg';            
+})
 
 // People Event Listners
+
+const img3 = document.querySelector("#people-card");
+
+const shakira = document.querySelector("#shakira");
+const sofia = document.querySelector("#sofia");
+const leg = document.querySelector("#john");
+
+shakira.addEventListener('mouseenter', e => {
+    img3.src = './images/shakira-tb.png';      
+})
+
+shakira.addEventListener('mouseleave', e => {
+    img3.src = './images/people-tb.png';            
+})
+
+leg.addEventListener('mouseenter', e => {
+    img3.src = './images/john-leguizamo-tb.png';      
+})
+
+leg.addEventListener('mouseleave', e => {
+    img3.src = './images/people-tb.png';            
+})
+
+sofia.addEventListener('mouseenter', e => {
+    img3.src = './images/sofia-vergara-tb.png';      
+})
+
+sofia.addEventListener('mouseleave', e => {
+    img3.src = './images/people-tb.png';            
+})
 
 // barr.onmouseover = function barrOver() {
 //         img.src = './images/barranquilla-tb.jpg'

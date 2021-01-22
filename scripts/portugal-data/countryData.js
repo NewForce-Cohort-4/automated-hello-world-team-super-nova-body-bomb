@@ -1,4 +1,4 @@
-//array of objects that represent countries. Only one currently
+//country represented by object
 let country = 
     {
     countryName:'Portugal',
@@ -9,7 +9,6 @@ let country =
 
 // function that provides a copy of data from the country object
 export const copyOfCountryFunction = () => {
-    
     return country
 }
 

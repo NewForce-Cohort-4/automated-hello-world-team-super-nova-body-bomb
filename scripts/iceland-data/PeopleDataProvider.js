@@ -6,19 +6,10 @@ const peopleCollection = [
         name: "Vigdís Finnbogadóttir; Former President, 1980-1996"
     },
     {
-        name: "Halldór Laxness; Writer"
-    },
+        name: "Bjarni Tryggvason, Astronaut and Scientist"
+    },  
     {
-        name: "Bjarni Tryggvason; Astronaut and Scientist"
-    },
-    {
-        name: "Gylfi Sigurðsson; Footballer"
-    },    
-    {
-        name: "Stefan Karl Stefansson; Actor"
-    },
-    {
-        name: "Hafþór Júlíus Björnsson; Professional strongman"
+        name: "Hafþór Júlíus Björnsson: Professional strongman"
     },
 ]
 

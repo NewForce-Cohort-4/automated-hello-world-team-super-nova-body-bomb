@@ -1,15 +1,8 @@
 
-
-console.log('test')
-import { copyOfCountryFunction } from './countryData.js';
 import { printer } from './htmlList.js';
-import {htmlObjectMakerFunction} from './htmlObject.js'
+// printer: when called it converts selected object data to an html string and then prints that string to target html index of the same name.Parameter required to chose which data is converted and printed
 
-
-// htmlObjectMakerFunction('cities')
-// htmlObjectMakerFunction('landmarks')
-// htmlObjectMakerFunction('famousPeople')
-
+// parameter choices are cities, landmarks, famousPeople and countryName. Parameter must be in string format
 printer('cities')
 printer('landmarks')
 printer('famousPeople')

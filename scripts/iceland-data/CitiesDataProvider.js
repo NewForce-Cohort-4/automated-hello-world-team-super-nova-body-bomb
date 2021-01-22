@@ -24,9 +24,6 @@ const cityCollection = [
         name: "Selfoss"
     },
     {
-        name: "Selfoss"
-    },
-    {
         name: "Akranes"
     },
     {
